@@ -111,7 +111,7 @@ public class SOAPClientSAAJ {
             soapBodyElem2.addTextNode(String.valueOf(argsSoapMethod.get(1)));
 
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("Bad response: (400OK");
             e.printStackTrace();
         }
     }
